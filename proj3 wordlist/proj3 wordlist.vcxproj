@@ -138,9 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="grid.h" />
+    <ClInclude Include="Findmatches.h" />
+    <ClInclude Include="hash.h" />
     <ClInclude Include="wordlist.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Findmatches.cpp" />
+    <ClCompile Include="grid.cpp" />
+    <ClCompile Include="hash.cpp" />
     <ClCompile Include="wordlist.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 #include "wordlist.h"
+#include "hash.h"
 using namespace std;
 
 int main()

@@ -15,7 +15,7 @@ using namespace std;
 class Wordlist
 {
 private:
-	//vector of strings to hold the words
+	friend class Hash; 
 	 
 	//value to record number of elements in the wordlist vector
 	int k;
